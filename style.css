@@ -427,7 +427,7 @@ body.menu-expanded button path {
 
 /* ======== Nuestros proyectos ======== */
 .Ourproyects{
-  background-color: white;
+  background-color: black;
   box-sizing: border-box;
   font-family: 'DM Sans';
   width: 100%;
@@ -440,18 +440,46 @@ body.menu-expanded button path {
 .Ourproyects .container-text-rp h3{
   text-transform: uppercase;
   font-weight: 900;
-  color: black;
+  color: white;
   margin-bottom: 3rem;
   letter-spacing: .3rem;
 }
 
 .photofixed{
-  width: 80vw;
+  width: 100vw;
   height: 50vw;
   position: absolute;
   top: -30%;
   margin: auto;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.view-moreimages{
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 12px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.view-moreimages:hover{
+  opacity: 1;
 }
 
 .sliderphoto ul{
@@ -489,6 +517,7 @@ body.menu-expanded button path {
 
 }
 .container-text-rp{
+  color: white;
   margin-top: 65px;
   padding: 5px;
   width: 100%;
