@@ -220,6 +220,11 @@ nav button {
   flex-direction: column;
 }
 
+
+
+
+
+
 /* ======== MENU EXPANDED ======== */
 
 body.menu-expanded {
@@ -420,7 +425,79 @@ body.menu-expanded button path {
   text-align: left;
 }
 
-/* ============== CLIENTES ================ */
+/* ======== Nuestros proyectos ======== */
+.Ourproyects{
+  background-color: white;
+  box-sizing: border-box;
+  font-family: 'DM Sans';
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Ourproyects .container-text-rp h3{
+  text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 3rem;
+  letter-spacing: .3rem;
+}
+
+.photofixed{
+  width: 80vw;
+  height: 50vw;
+  position: absolute;
+  top: -30%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.sliderphoto ul{
+  padding: 0%;
+  display: flex;
+  width: 300%;
+  animation: cambio 20s infinite alternate linear;
+
+}
+
+.sliderphoto li{
+  list-style: none;
+  width: 100%;
+}
+
+.sliderphoto img{
+  width: 100%;
+}
+
+.Ourproyects .photofixed .sliderphoto{
+  width: 100%;
+  height: 100%;
+  
+}
+
+@keyframes cambio{
+  0% {margin-left: 0;}
+  33% {margin-left: 0;}
+
+  33% {margin-left: -100%;}
+  66% {margin-left: -100%;}
+
+  66% {margin-left: -200%;}
+  100% {margin-left: -200%;}
+
+}
+.container-text-rp{
+  margin-top: 65px;
+  padding: 5px;
+  width: 100%;
+  height: fit-content;
+}
+
+
+
+/* ============== Testimonios ================ */
 
 .testimonials {
   padding: 5rem 2rem 2rem;
