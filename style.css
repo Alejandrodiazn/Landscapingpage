@@ -41,10 +41,6 @@ body {
    height: 100%;
 }
 
-img {
-  max-width: 100%;
-}
-
 ul {
   list-style: none;
 }
@@ -519,6 +515,7 @@ body.menu-expanded button path {
   padding: 5px;
   width: 100%;
   height: fit-content;
+  font-size: 19px;
 }
 
 /* ======== PRESENTACION ======== */
@@ -532,12 +529,42 @@ body.menu-expanded button path {
   flex-direction: column;
 }
 
-.presentationsection img{
-  width: 200%;
+.container-text p{
+  padding: 0px 33px 0px 33px;
+  font-size: 19px;
+}
+.container-text h3{
+  text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 3rem;
+  letter-spacing: .2rem;
+}
+.container-text{
+  margin-top: 45px;
+}
+.boximage {
+  height: 30vh;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  margin: 0 auto !important;
 }
 
-.boximage{
-  background-color: ;
+.boximage img {
+  width: 140% !important;
+  margin-left: -10% !important;
+}
+
+
+.boximage2{
+  height: 30vh;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  margin: 0 auto !important;
+}
+.boximage2 img{
+  width: 130% !important;
+  margin-left: -30vw !important;
 }
 
 /* ============== Testimonios ================ */
