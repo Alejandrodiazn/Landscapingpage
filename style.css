@@ -54,10 +54,6 @@ ul {
   padding-inline: 2.4rem;
 }
 
-section {
-  padding-block: 10rem;
-}
-
 
 section header h1 {
   font-size: 3.4rem;
@@ -110,6 +106,7 @@ section header h4 {
  }
 
 /* ======== NAVIGATION ======== */
+
 
 nav {
   display: flex;
@@ -435,6 +432,8 @@ body.menu-expanded button path {
   position: relative;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .Ourproyects .container-text-rp h3{
@@ -448,8 +447,6 @@ body.menu-expanded button path {
 .photofixed{
   width: 100vw;
   height: 50vw;
-  position: absolute;
-  top: -30%;
   margin: auto;
   overflow: hidden;
   display: flex;
@@ -517,14 +514,31 @@ body.menu-expanded button path {
 
 }
 .container-text-rp{
+  margin-top: 2vh;
   color: white;
-  margin-top: 65px;
   padding: 5px;
   width: 100%;
   height: fit-content;
 }
 
+/* ======== PRESENTACION ======== */
 
+.presentationsection{
+  width: 100%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.presentationsection img{
+  width: 200%;
+}
+
+.boximage{
+  background-color: ;
+}
 
 /* ============== Testimonios ================ */
 
@@ -689,9 +703,7 @@ body.menu-expanded button path {
     display: grid;
   }
 
-  section {
-    padding-block: 16rem;
-  }
+
 
   section h2 {
     font-size: 4rem;
