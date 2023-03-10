@@ -520,6 +520,11 @@ body.menu-expanded button path {
 
 /* ======== PRESENTACION ======== */
 
+.masterbox{
+  
+}
+
+
 .presentationsection{
   width: 100%;
   height: fit-content;
@@ -870,7 +875,74 @@ body.menu-expanded button path {
   nav#navigation.scroll .menu button:hover {
      background-color: var(--primary-color);
   }
+/* ======== PRESENTACION ======== */
 
+.masterbox1{
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.masterbox2{
+  width: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+}
+
+.presentationsection{
+  width: 100%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-text p{
+  padding: 0px 33px 0px 33px;
+  font-size: 19px;
+}
+.container-text h3{
+  text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 3rem;
+  letter-spacing: .2rem;
+}
+.container-text{
+  margin-top: 45px;
+  width: 50%;
+}
+.boximage {
+  width: 50%;
+  height: 250px;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  margin: 0 auto !important;
+  background-color: yellow;
+  
+}
+
+.boximage img {
+  width: 250px !important;
+
+  position: absolute;
+
+  margin-left: -20px;
+}
+
+
+.boximage2{
+  height: 30vh;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  margin: 0 auto !important;
+}
+.boximage2 img{
+  width: 100% !important;
+  margin-left: 0% !important;
+}
     
 
   /* ============== SERVICES ================ */
