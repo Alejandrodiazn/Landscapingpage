@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* Colores  */
@@ -429,7 +430,6 @@ body.menu-expanded button path {
   font-family: 'DM Sans';
   width: 100%;
   height: fit-content;
-  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -627,6 +627,31 @@ body.menu-expanded button path {
   padding-top: 22px;
 }
 
+
+
+/* ============== ESTILOS DE Recent proyects ================ */
+.container-text-rp{
+  width: 40%;
+  height: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  padding: 6rem;
+  padding: 0px 66px 0px 66px;
+  
+}
+.Ourproyects{
+  flex-direction: row;
+  gap: 0px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.photofixed{
+  width: 40%;
+  height: 20vw;
+  margin: 0px;
+}
 
 /* ============== ESTILOS DE INICIO ================ */
 
