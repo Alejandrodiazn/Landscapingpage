@@ -81,10 +81,7 @@ section header h4 {
   fill: var(--brand-ligth);
 }
 
-#navigation .logo path[fill*="#00856F"],
-#back-top-button circle {
-   fill: var(--primary-color);
- }
+
 
  #services .card path,
  button.open-menu path[stroke*="#00856F"],
@@ -362,7 +359,9 @@ body.menu-expanded button path {
   position: fixed;
   bottom: 1rem;
   right: 2.5rem;
-
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
   opacity: 0;
   visibility: hidden;
   transform: translateY(100%);
@@ -879,10 +878,6 @@ h2 {
   text-align: left;
 }
 
-/* ============== CLIENTES ================ */
-  
-
-
   /* ============== GERAL ================ */
   body {
     overflow: auto;
@@ -1036,6 +1031,7 @@ h2 {
 }
 
 .presentationsection{
+   
   width: 100%;
   height: fit-content;
   background-color: #FFFFFF;
