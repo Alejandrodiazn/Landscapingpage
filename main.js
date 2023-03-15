@@ -73,7 +73,7 @@ function closeMenu() {
 }
 
 function toWhatsapp() {
-  window.open('https://wa.me/5511937004490', '_blank');
+  window.open('https://wa.me/+52000000', '_blank');
 }
 
 document.addEventListener('scroll', onScroll)
