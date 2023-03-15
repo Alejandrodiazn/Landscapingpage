@@ -1,7 +1,15 @@
+/**
+ * Variables
+ */
+
 const btnMenuOpen = document.querySelector('.open-menu')
 const btnMenuClose = document.querySelector('.close-menu')
 const menuLinks = document.querySelectorAll('.menu-links li')
 const btnWhatsapp = document.querySelectorAll('button.whatsapp');
+
+/**
+ * Tampocose
+ */
 
 function changeHeaderColor() {
   const nav = document.querySelector('#navigation')
@@ -9,11 +17,32 @@ function changeHeaderColor() {
   else nav.classList.remove('scroll')
 }
 
+/**
+ * Top Button
+ */
+
+//Show
 function showTopButton() {
   const topBtn = document.querySelector('#back-top-button')
   if (scrollY > 400) topBtn.classList.add('show')
   else topBtn.classList.remove('show')
 }
+
+//Function
+document.querySelector('#back-top-button').addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+})
+
+/**
+ * Highlight Menu
+ */
+
+/**
+ * Nose
+ */
 
 function highlightMenu() {
   const menus = document.querySelectorAll('.menu-links li a')
