@@ -526,7 +526,7 @@ body.menu-expanded button path {
   align-items: center;
   flex-direction: column;
 }
-.aboutsection .containergeneral h3{
+.aboutsection h3{
   margin-top: 22px;
   text-transform: uppercase;
   font-weight: 900;
@@ -679,7 +679,7 @@ body.menu-expanded button path {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  width: 400px;
+  width: 370px;
 }
 
 h2 {
@@ -844,7 +844,53 @@ h2 {
   padding-top: 22px;
 }
 
+/* ======== About us epic section ======== */
+.aboutsection{
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutsection h3{
+  margin-top: 22px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 3rem;
+  letter-spacing: .3rem;
+}
+.aboutsection .containergeneral{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.aboutsection .containergeneral img{
+  width: 40%;
+}
+.aboutsection .containergeneral p{
+  width: 40%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.aboutsection .phrase{
+  width: 100%;
+  background-color: #EDEDED;
+  height: 250px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+  padding: 30px 20px 30px 20px;
+  margin-bottom: 26px;
+}
 
 /* ============== ESTILOS DE Recent proyects ================ */
 .container-text-rp{
